@@ -122,7 +122,10 @@ The ML Pipeline is a systematic process used to build, train, and deploy machine
   - Perform cost-benefit analysis to evaluate feasibility.
   
 - **Model Options**:
-  - **AI/ML Hosted Service** (e.g., AWS Comprehend, Forecast, Personalize): No training required.
+  - **AI/ML Hosted Service** (e.g.,
+  -   "AWS Comprehend" - NER, entity Tagging, Sentiment, Document classifications
+  -   "AWS Forecast" - Time series forecasting,
+  -   "Personalize" - Recommendation Engine for personlized content): No training required.
   - **Pre-trained Models** (e.g., Amazon Bedrock, SageMaker JumpStart): Fine-tune with your data.
   - **Fully Custom Model**: Build and train from scratch.
 
